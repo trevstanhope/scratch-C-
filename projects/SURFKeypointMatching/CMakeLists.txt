@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( SURFKeypointMatching )
+find_package( OpenCV REQUIRED )
+add_executable( SURFKeypointMatching SURFKeypointMatching.cpp )
+target_link_libraries( SURFKeypointMatching ${OpenCV_LIBS} )
