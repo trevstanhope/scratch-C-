@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( DilateImage )
+find_package( OpenCV REQUIRED )
+add_executable( DilateImage DilateImage.cpp )
+target_link_libraries( DilateImage ${OpenCV_LIBS} )
