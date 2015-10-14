@@ -1,0 +1,1 @@
+/home/trevor/Public/scratch-cpp/projects/DetectRedObject/CMakeFiles/DetectRedObject.dir

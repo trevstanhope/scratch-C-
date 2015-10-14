@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( DetectRedObject )
+find_package( OpenCV REQUIRED )
+add_executable( DetectRedObject DetectRedObject.cpp )
+target_link_libraries( DetectRedObject ${OpenCV_LIBS} )
