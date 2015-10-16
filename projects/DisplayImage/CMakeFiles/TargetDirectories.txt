@@ -1,1 +1,1 @@
-/home/trevor/Public/scratch-cpp/code/DisplayImage/CMakeFiles/DisplayImage.dir
+/home/trevor/Public/scratch-cpp/projects/DisplayImage/CMakeFiles/DisplayImage.dir
