@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/ReadArduino.dir/ReadArduino.cpp.o  -o ReadArduino -rdynamic 

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/trevor/Public/scratch-cpp/projects/ReadArduino/ReadArduino.cpp
+Serial.h
+/home/trevor/Public/scratch-cpp/projects/ReadArduino/Serial.h
+iostream
+-
+
