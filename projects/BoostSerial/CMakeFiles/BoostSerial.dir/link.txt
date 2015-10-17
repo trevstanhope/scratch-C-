@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/BoostSerial.dir/BoostSerial.cpp.o  -o BoostSerial -rdynamic -lboost_system 
