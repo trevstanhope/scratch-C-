@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/trevor/Public/scratch-cpp/projects/TaskScheduler/TaskScheduler.cpp
+iostream
+-
+scheduler2.h
+/home/trevor/Public/scratch-cpp/projects/TaskScheduler/scheduler2.h
+
+/home/trevor/Public/scratch-cpp/projects/TaskScheduler/scheduler2.h
+functional
+-
+chrono
+-
+future
+-
+queue
+-
+thread
+-
+memory
+-
+

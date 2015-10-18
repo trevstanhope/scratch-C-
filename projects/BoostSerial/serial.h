@@ -1,6 +1,6 @@
 #include <boost/asio.hpp>
 
-class SimpleSerial {
+class Serial {
  public:
     /**
      * Constructor.
@@ -9,7 +9,7 @@ class SimpleSerial {
      * \throws boost::system::system_error if cannot open the
      * serial device
      */
-    SimpleSerial(std::string port, unsigned int baud_rate)
+    Serial(std::string port, unsigned int baud_rate)
     : io(), serial(io,port)
     {
         serial.set_option(boost::asio::serial_port_base::baud_rate(baud_rate));
@@ -31,7 +31,7 @@ class SimpleSerial {
      * \return a string containing the received line
      * \throws boost::system::system_error on failure
      */
-    std::string readLine()
+    std::string readLine(void)
     {
         //Reading data char by char, code is optimized for simplicity, not speed
         using namespace boost;
