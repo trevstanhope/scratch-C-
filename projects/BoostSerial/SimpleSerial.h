@@ -1,8 +1,7 @@
 #include <boost/asio.hpp>
 
-class SimpleSerial
-{
-public:
+class SimpleSerial {
+ public:
     /**
      * Constructor.
      * \param port device name, example "/dev/ttyUSB0" or "COM4"
